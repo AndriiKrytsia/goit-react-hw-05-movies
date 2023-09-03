@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-import { HeaderEl } from './Header.styled';
+import { HeaderEl } from './HeaderStyled.styled';
 
 export const Header = () => {
   return (
