@@ -6,14 +6,6 @@ const Cast = () => {
   const { movieId } = useParams();
   const [filmCast, setFilmCast] = useState(null);
 
-  //   const getFilmCast = useMemo(() => {
-  //     (async () => {
-  //       const getFilmCasts = await getCast(movieId);
-  //       getFilmCasts.cast.length = 10;
-  //       return getFilmCasts.cast
-  //     })();
-  //   }, [movieId]);
-
   useEffect(() => {
     (async () => {
       const getFilmCast = await getCast(movieId);
