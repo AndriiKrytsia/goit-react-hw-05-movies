@@ -12,7 +12,7 @@ export const InfoWrapper = styled.div`
   }
   .genres-list {
     display: flex;
-    gap: 8px;
+    gap: 12px;
     list-style: none;
   }
 `;
